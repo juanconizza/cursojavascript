@@ -50,10 +50,18 @@ AMPLIO */
 
 console.log(nombre);*/
 
-let numeroUno = Number(prompt("Ingrese el numero 1"));
+/*let numeroUno = Number(prompt("Ingrese el numero 1"));
 let numeroDos = Number(prompt("Ingrese el numero 2"));
 
-alert(numeroUno + numeroDos);
+alert(numeroUno + numeroDos); */
+
+/*let mensajeBienvenida = prompt("Bienvenido a Mini Calc");
+
+let numeroElegido = Number(prompt("Elija Numero del 1 al 10"));
+
+let numeroElegido2 = Number(prompt("Elija un número del 1 al 10"));
+
+alert (numeroElegido + numeroElegido2);*/
 
 
 
