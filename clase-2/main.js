@@ -45,7 +45,7 @@ console.log(`Hola ${nombre}`);*/
 
 
 //ACTIVIDAD//
-
+/*
 prompt ("Bienvenido a la Rifa Online!, presiona ACEPTAR");
 
 let nombre = prompt ("Ingrese su Nombre").toUpperCase ();
@@ -81,5 +81,23 @@ if (telefono !== "") {
 }; 
 
 alert ("Gracias!, ya está participando")
+*/
 
+alert("Bienvenido a la Rifa Online!, presiona ACEPTAR");
+
+function solicitarInformacion(mensaje) {
+    let respuesta = prompt(mensaje).trim().toUpperCase();
+    while (respuesta === "") {
+        alert("Este campo es requerido");
+        respuesta = prompt(mensaje).trim().toUpperCase();
+    }
+    return respuesta;
+}
+
+let nombre = solicitarInformacion("Ingrese su Nombre");
+let apellido = solicitarInformacion("Ingrese su Apellido");
+let dni = Number(solicitarInformacion("Ingrese su DNI sin puntos"));
+let telefono = Number(solicitarInformacion("Ingrese su teléfono sin 0 y sin 15 (ej: 3515664411)"));
+
+alert("Gracias, ya está participando!");
 
