@@ -44,3 +44,42 @@ console.log(`Hola ${nombre}`);*/
 
 
 
+//ACTIVIDAD//
+
+prompt ("Bienvenido a la Rifa Online!, presiona ACEPTAR");
+
+let nombre = prompt ("Ingrese su Nombre").toUpperCase ();
+
+if (nombre !== "") {
+    alert ("Gracias!, Presione Aceptar")
+} else {
+    alert ("El Nombre es requerido") 
+}; 
+
+let apellido = prompt ("Ingrese su Apellido").toUpperCase ();
+
+if (apellido !== "") {
+    alert ("Gracias!, Presione Aceptar")
+} else {
+    alert ("El Apellido es requerido")
+}; 
+
+let dni = Number(prompt("Ingrese su DNI sin puntos"));
+
+if (dni !== "") {
+    alert ("Gracias!, Presione Aceptar")
+} else {
+    alert ("El DNI es requerido")
+}; 
+
+let telefono = Number(prompt("Ingrese su telefono sin 0 y sin 15 (ej:3515664411"));
+
+if (telefono !== "") {
+    alert ("Gracias!, Presione Aceptar")
+} else {
+    alert ("El Telefono es requerido")
+}; 
+
+alert ("Gracias!, ya está participando")
+
+
