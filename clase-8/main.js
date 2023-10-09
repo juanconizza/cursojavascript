@@ -95,5 +95,5 @@ const navidad2 = new Date("December 24, 2023 23:59:59")
 const hoy = new Date("October 9, 2023")
 
 console.log(navidad2 - hoy);
-console.log((navidad2 - hoy) / 86400000);
+console.log((navidad2 - hoy) / 86400000); // Milisegundos por dia. 
 
